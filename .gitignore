@@ -3,6 +3,7 @@
 .Rapp.history
 
 # Session Data files
+.Rdata
 .RData
 .RDataTmp
 
@@ -56,3 +57,12 @@ figures/*
 
 #don't upload results
 results/*
+
+#don't upload output
+output/*
+
+#don't upload log
+log/*
+
+#don't upload error
+error/*
